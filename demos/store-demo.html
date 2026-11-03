@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Simple Store Demo — Portfolio Demonstration</title>
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <script src="store.js" defer></script>
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="../index.html"
+          ><span class="mark">P.</span><span>AFUYE <b>PRECIOUS</b></span></a
+        ><a class="text-link" href="../projects.html">Back to projects ←</a>
+      </div>
+    </header>
+    <main class="demo-page wrap">
+      <a class="demo-back" href="../projects.html">← ALL PROJECTS</a>
+      <section class="demo-shell">
+        <span class="demo-label">DEMONSTRATION | E-COMMERCE</span>
+        <h1>Useful things.<br /><em>Simply shown.</em></h1>
+        <p>
+          A fictional sample shop. Product names and prices are made up for this
+          demonstration. Add an item to the sample cart to try the interaction.
+        </p>
+        <div class="demo-products">
+          <article class="demo-product">
+            <div class="demo-product-art">☕</div>
+            <h3>Morning mug</h3>
+            <p>Sample ceramic mug · ₦4,500</p>
+            <button type="button" data-add="Morning mug">
+              Add to sample cart
+            </button>
+          </article>
+          <article class="demo-product">
+            <div class="demo-product-art">📓</div>
+            <h3>Daily notes</h3>
+            <p>Sample notebook · ₦3,000</p>
+            <button type="button" data-add="Daily notes">
+              Add to sample cart
+            </button>
+          </article>
+          <article class="demo-product">
+            <div class="demo-product-art">🎒</div>
+            <h3>Everyday bag</h3>
+            <p>Sample canvas bag · ₦8,000</p>
+            <button type="button" data-add="Everyday bag">
+              Add to sample cart
+            </button>
+          </article>
+        </div>
+        <div id="cart" class="demo-cart" aria-live="polite">
+          Your sample cart is empty.
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
